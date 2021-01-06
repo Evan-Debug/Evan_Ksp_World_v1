@@ -1,4 +1,7 @@
-  <!DOCTYPE html>
+
+<!-- 4 : 15 is a skyscrapper -->
+<!DOCTYPE html>
+
 <html lang="en">
 <head>
   <link rel="icon" href="./logo.png" type="image/png">
@@ -8,13 +11,14 @@
   <script src="script.js" defer></script>
   <link href="styles.css" rel="stylesheet">
   <title>Evan's KSP World</title>
+  
 </head>
 <body>
   <ul class="tabs">
     <li data-tab-target="#home" class="active tab">Home</li>
     <li data-tab-target="#screenshots" class="tab">Screenshots</li>
     <li data-tab-target="#about" class="tab">About</li>
-    <li data-tab-target="#debug" class="tab">Debuging</li>
+    <li data-tab-target="#test" class="tab">test</li>
   </ul>
 
   <div class="tab-content">
@@ -37,7 +41,7 @@
 		<h3 style="text-align:center" >This Station was meant to air drop package down to Kerbin, but on the first launch it didnt have enough fuel!</h3>
 		
 		<img class="center-fit" src="Screenshots\screenshot_2.jpg">
-		<h2 style="text-align:center" >The Asteroid Extractor</h2>
+		<h2 style="text-align:center" >Asteroid Extractor</h2>
 		<h3 style="text-align:center" >Small Station that would extract resources out of asteroids, then go into Kerbin orbit to drop off resources collected.</h3>
 		
 	  </div>
@@ -47,9 +51,14 @@
       <h2 style="text-align:center" >This Page is just all about my ksp,</h2>
       <h2 style="text-align:center" >like Screenshots, Mods, Ideas, Vessel Concepts, etc. </h2>
     </div>
-	<div id="#debug" data-tab-content> 
-		
-	</div>
+	<div id="test" data-tab-content>
+			<label style="text-align:center" for="pswd">Enter your password: </label>
+			<input type="password" id="pswd">
+			<input type="button" value="Submit" onclick="checkPswd();" />
+    </div>
+	
   </div>
+
+
 </body>
 </html>
