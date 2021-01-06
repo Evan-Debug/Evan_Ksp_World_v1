@@ -39,8 +39,15 @@ body {
 }
 
 .center-fit {
+  display: block;
   max-width: 100%;
   max-height: 135vh;
+  margin: auto;
+}
+.center-corrected {
+  display: block;
+  max-width: 25%;
+  max-height: 10vh;
   margin: auto;
 }
 .ScreenshotText {
