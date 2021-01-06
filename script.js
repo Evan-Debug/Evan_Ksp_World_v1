@@ -15,7 +15,6 @@ tabs.forEach(tab => {
   })
 })
 
-
 function checkPswd() {
         var confirmPassword = "yotsuba nakano";
         var password = document.getElementById("pswd").value;
