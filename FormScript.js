@@ -15,19 +15,7 @@ tabs.forEach(tab => {
   })
 })
 
-function checkPswd() {
-        var confirmPassword = "yotsuba nakano";
-        var password = document.getElementById("pswd").value;
-        if (password == confirmPassword) {
-             window.location="hidden.html";
-        }
-        else{
-            alert("Password is Incorrect");
-        }
-}
+
 function HomePage() {
  window.location="index.html";
-}
-function GotoForms() {
- window.location="Evan_Forms.html";
 }
